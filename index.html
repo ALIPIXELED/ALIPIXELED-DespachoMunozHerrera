@@ -1,0 +1,186 @@
+<!DOCTYPE html>  
+<html lang="es"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Despacho Jurídico Muñoz Herrera</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: url('img/BlindBalance.png') no-repeat center center/cover;
+      color: #fff;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    nav {
+      background-color: #2c3e50;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    main {
+      padding: 40px 20px;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .service i {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #3498db;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-info {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    @media(max-width: 768px){
+      header h1 { font-size: 2.2em; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>Despacho Jurídico Muñoz Herrera</h1>
+      <p>Lic. Helena Jaqueline Muñoz Herrera</p>
+    </div>
+  </header>
+  
+  <style>
+    .header-content {
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block; /* Ensures the background only covers the text */
+      text-align: center;
+    }
+  </style>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <div class="services">
+        <div class="service">
+          <i class="fas fa-file-signature"></i>
+          <h3>Escrituras</h3>
+          <p>Todo tipo de escrituras públicas y privadas, asesoría completa en trámites notariales.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-car"></i>
+          <h3>Compraventa</h3>
+          <p>Formalización de compraventa de inmuebles y vehículos de manera segura.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-gavel"></i>
+          <h3>Casos Penales y Civiles</h3>
+          <p>Defensa y representación en procesos judiciales penales, civiles y de familia.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-briefcase"></i>
+          <h3>Laboral y Familia</h3>
+          <p>Asesoría en conflictos laborales, divorcios, adopciones y custodia de menores.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p style="text-align: center; max-width: 800px; margin: auto;">
+        En el Despacho Jurídico Muñoz Herrera, nos especializamos en brindar servicios legales con ética, profesionalismo y un enfoque personalizado. Con años 28 de experiencia, acompañamos a nuestros clientes en cada etapa de sus procesos legales, garantizando transparencia y compromiso.
+      </p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> Teléfono: +503 7853-8941</p>
+        <p><i class="fas fa-envelope"></i> Email: despachomunozherrera@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Dirección: Esquina 4ta Calle y Avenida San Martín, Centro comercial Plaza desarrollo, Local #13 Santa Tecla, Frente la Gasolinera Puma Sobre carretera Panamericana</p>
+      </div>
+    </section>
+
+  </main>
+
+  <a href="https://wa.me/50378538941" class="whatsapp-button" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    &copy; 2025 Despacho Jurídico Muñoz Herrera. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
